@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
     // TODO (2) Create a method called makeGithubSearchQuery
     // TODO (3) Within this method, build the URL with the text from the EditText and set the built URL to the TextView
-    public void makeGithubSearchQuery() {
+    private void makeGithubSearchQuery() {
         URL request = NetworkUtils.buildUrl(mSearchBoxEditText.getText().toString());
         mUrlDisplayTextView.setText(request.toString());
     }
