@@ -17,5 +17,7 @@
     <string name="pref_color_green_value" translatable="false">green</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="cb_pref_show_bass_key">show_bass</string>
+    <string name="cb_pref_show_bass_title">Show Bass</string>
 </resources>
